@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES6",
+		"strict": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": false,
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"declaration": true,
+		"sourceMap": true,
+		"declarationDir": "dist/types",
+		"sourceRoot": "dist/source"
+  },
+	"include": ["src/**/*.ts"],
+}
