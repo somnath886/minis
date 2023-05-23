@@ -6,7 +6,7 @@ export function useObservable<T>(state$: IObservable<T>) {
 
   React.useEffect(() => {
     const sub = state$.subscribe(setState);
-    return sub();
+    return () => sub();
   }, [state$]);
 
   return state;
