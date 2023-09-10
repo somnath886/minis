@@ -1,5 +1,5 @@
-import { GetJSONFetcherInterface } from './jsonfetcher';
-import { GetObservable } from './observable';
-import { useObservable } from './use-observable';
-export { GetObservable, useObservable, GetJSONFetcherInterface };
+export * from "./result";
+export * from "./jsonfetcher";
+export * from "./observable";
+export * from "./use-observable";
 //# sourceMappingURL=index.js.map
