@@ -1,6 +1,6 @@
 {
   "name": "minis",
-  "version": "1.0",
+  "version": "0.1.0",
   "author": "Somnath Halder",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -10,12 +10,15 @@
     "build": "rimraf ./dist && tsc"
   },
   "dependencies": {
-    "react": "<=18.2.0"
+    "react": "<=18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.6",
-    "rimraf": "^5.0.0",
-    "typescript": "5.0.4"
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@types/node": "20.6.0",
+    "rimraf": "^5.0.1",
+    "typescript": "5.2.2"
   },
   "peerDependencies": {
     "react": "<=18.2.0",
